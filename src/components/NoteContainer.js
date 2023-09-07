@@ -40,7 +40,7 @@ const NoteContainer = () => {
           <FontAwesome name="square-o" size={28} color="#CCC" />
         )}
       </TouchableOpacity>
-
+    
       <ScrollView horizontal={true}>
         <Text
           style={item.checkComplete ? styles.textComplete : styles.textItem}
